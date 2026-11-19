@@ -1,9 +1,9 @@
 import { useLocalSearchParams, useRouter } from "expo-router";
 import {
-    Pressable,
-    StyleSheet,
-    Text,
-    View,
+  Pressable,
+  StyleSheet,
+  Text,
+  View,
 } from "react-native";
 
 export default function Resultado() {
@@ -45,7 +45,7 @@ export default function Resultado() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#FFF7FA",
+    backgroundColor: "#F1F8F4",
     justifyContent: "center",
     padding: 20,
   },
@@ -53,12 +53,12 @@ const styles = StyleSheet.create({
   titulo: {
     fontSize: 27,
     fontWeight: "bold",
-    color: "#6C4051",
+    color: "#145A32",
     textAlign: "center",
   },
 
   subtitulo: {
-    color: "#8A727C",
+    color: "#52705D",
     textAlign: "center",
     marginBottom: 22,
   },
@@ -68,26 +68,26 @@ const styles = StyleSheet.create({
     padding: 20,
     borderRadius: 20,
     borderWidth: 1,
-    borderColor: "#F2D5E0",
+    borderColor: "#2E8B57",
     marginBottom: 18,
     elevation: 3,
   },
 
   label: {
-    color: "#A06C80",
+    color: "#36865A",
     fontSize: 13,
     marginTop: 8,
   },
 
   valor: {
-    color: "#563C46",
+    color: "#183B2A",
     fontSize: 17,
     fontWeight: "600",
     marginBottom: 8,
   },
 
   boton: {
-    backgroundColor: "#C96A8B",
+    backgroundColor: "#16803C",
     padding: 14,
     borderRadius: 13,
     alignItems: "center",
